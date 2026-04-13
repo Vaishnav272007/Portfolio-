@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vaishnav | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="nav-brand">VK<span class="dot">.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home"     class="nav-link">Home</a></li>
+      <li><a href="#skills"   class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#about"    class="nav-link">About</a></li>
+      <li><a href="#contact"  class="nav-link">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ── HOME ── -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting fade-in">Hello, I'm</p>
+      <h1 class="hero-name fade-in delay-1">Vaishnav</h1>
+      <p class="hero-role fade-in delay-2">
+        B.Sc. Computer Science Student
+        <span class="accent">&amp;</span>
+        Freelance Meta Ads Manager
+      </p>
+      <p class="hero-location fade-in delay-3">📍 Chhatrapati Sambhajinagar, Maharashtra</p>
+      <div class="hero-btns fade-in delay-4">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact"  class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills" class="section">
+    <div class="container">
+      <span class="section-label">What I Know</span>
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon">☕</div>
+          <h3>Java</h3>
+          <p>OOP, Inheritance, Polymorphism, Abstraction, Core Concepts</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">⚙️</div>
+          <h3>C++</h3>
+          <p>Data Structures, Dynamic Memory, Arrays, Sorting Algorithms</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🗄️</div>
+          <h3>SQL &amp; DBMS</h3>
+          <p>DDL, DML, JOINs, Triggers, Stored Procedures, Normalization</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>HTML / CSS / JS</h3>
+          <p>Responsive Design, Flexbox, Grid, DOM Manipulation</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🐧</div>
+          <h3>Linux OS</h3>
+          <p>Shell Scripting, File System, Process Management, Commands</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">📣</div>
+          <h3>Meta Ads</h3>
+          <p>Lead Gen Campaigns, Audience Targeting, Budget Strategy, Analytics</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects" class="section section-dark">
+    <div class="container">
+      <span class="section-label">What I've Built</span>
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Web</span>
+            <div class="project-links">
+              <a href="https://github.com/yourusername/portfolio" target="_blank" title="GitHub">
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.1.82-.26.82-.58v-2.02c-3.34.72-4.04-1.6-4.04-1.6-.54-1.38-1.32-1.75-1.32-1.75-1.08-.74.08-.72.08-.72 1.2.08 1.83 1.23 1.83 1.23 1.06 1.82 2.78 1.3 3.46 0.99.1-.77.42-1.3.76-1.6-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013.01-.4c1.02 0 2.05.14 3.01.4 2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.22.69.83.57C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>Personal Portfolio</h3>
+          <p>A responsive developer portfolio built with pure HTML, CSS, and JavaScript. Dark theme, smooth animations, and mobile-first design.</p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Database</span>
+            <div class="project-links">
+              <a href="https://github.com/yourusername" target="_blank" title="GitHub">
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.1.82-.26.82-.58v-2.02c-3.34.72-4.04-1.6-4.04-1.6-.54-1.38-1.32-1.75-1.32-1.75-1.08-.74.08-.72.08-.72 1.2.08 1.83 1.23 1.83 1.23 1.06 1.82 2.78 1.3 3.46 0.99.1-.77.42-1.3.76-1.6-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013.01-.4c1.02 0 2.05.14 3.01.4 2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.22.69.83.57C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>SQL Lab Practicals</h3>
+          <p>Complete SQL lab manual for BAMU curriculum. Covers DDL, DML, DCL, TCL, JOINs, Triggers, nested queries, and user-defined functions.</p>
+          <div class="project-tech">
+            <span>SQL</span><span>DBMS</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">C++</span>
+            <div class="project-links">
+              <a href="https://github.com/yourusername" target="_blank" title="GitHub">
+                <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.1.82-.26.82-.58v-2.02c-3.34.72-4.04-1.6-4.04-1.6-.54-1.38-1.32-1.75-1.32-1.75-1.08-.74.08-.72.08-.72 1.2.08 1.83 1.23 1.83 1.23 1.06 1.82 2.78 1.3 3.46 0.99.1-.77.42-1.3.76-1.6-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013.01-.4c1.02 0 2.05.14 3.01.4 2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.22.69.83.57C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>DSA Lab Manual (C++)</h3>
+          <p>15 C++ practicals on data structures: dynamic memory, arrays, linked lists, stacks, queues, and sorting — submitted for BAMU M1-DSC-8.</p>
+          <div class="project-tech">
+            <span>C++</span><span>DSA</span><span>OOP</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about" class="section">
+    <div class="container about-layout">
+      <div class="about-visual">
+        <div class="avatar-ring">
+          <div class="avatar-inner">VK</div>
+        </div>
+        <div class="about-badges">
+          <div class="badge">🎓 B.Sc. CS</div>
+          <div class="badge">💼 Freelancer</div>
+          <div class="badge">🔍 Open to Internships</div>
+        </div>
+      </div>
+      <div class="about-text">
+        <span class="section-label">Who I Am</span>
+        <h2 class="section-title">About Me</h2>
+        <p>I'm a first-year <strong>B.Sc. Computer Science</strong> student at Vasantrao Naik Mahavidyalaya, affiliated with Dr. Babasaheb Ambedkar Marathwada University, Chhatrapati Sambhajinagar, Maharashtra.</p>
+        <p>Alongside my studies, I work as a <strong>freelance Meta Ads Manager</strong> — running Instagram lead generation campaigns for digital training platforms targeting Marathi-speaking audiences.</p>
+        <p>I hold a <strong>Deloitte Australia Technology Job Simulation</strong> certificate from Forage, and I'm actively building skills across CS fundamentals, web development, and digital marketing.</p>
+        <div class="about-highlights">
+          <div class="highlight">
+            <span class="hl-num">15+</span>
+            <span class="hl-label">Lab Practicals</span>
+          </div>
+          <div class="highlight">
+            <span class="hl-num">3+</span>
+            <span class="hl-label">Projects</span>
+          </div>
+          <div class="highlight">
+            <span class="hl-num">1</span>
+            <span class="hl-label">Certification</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact" class="section section-dark">
+    <div class="container contact-layout">
+      <div class="contact-info">
+        <span class="section-label">Say Hello</span>
+        <h2 class="section-title">Contact</h2>
+        <p>I'm open to internship opportunities, collaborations, and freelance projects. Let's talk!</p>
+        <div class="contact-chips">
+          <a href="https://linkedin.com/in/yourprofile" target="_blank" class="chip">💼 LinkedIn</a>
+          <a href="mailto:youremail@gmail.com"          class="chip">📧 Email</a>
+          <a href="https://github.com/yourusername"     target="_blank" class="chip">🐙 GitHub</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <input type="text"  id="nameInput"    placeholder="Your Name"    required />
+          <input type="email" id="emailInput"   placeholder="Your Email"   required />
+        </div>
+        <textarea id="messageInput" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn btn-primary" id="submitBtn">Send Message ✉️</button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <p>Made with 💙 by <strong>Vaishnav</strong> &nbsp;·&nbsp; B.Sc. CS @ Dr. BAMU &nbsp;·&nbsp; Maharashtra</p>
+    <p class="footer-copy">© 2025 Vaishnav. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
