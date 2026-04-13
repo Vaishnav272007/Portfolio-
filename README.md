@@ -2,7 +2,6 @@
 
 A personal portfolio website built with **HTML, CSS, and JavaScript** — showcasing my skills, projects, and experience as a Computer Science student and freelance digital marketer.
 
-🌐 **Live Demo:** 
 
 ---
 
@@ -44,17 +43,6 @@ portfolio/
 └── assets/          # Images and icons
 ```
 
----
-
-## 🚀 Run Locally
-
-```bash
-# Clone this repository
-git clone https://github.com/yourusername/portfolio.git
-
-# Open in browser
-open index.html
-```
 
 ---
 
@@ -62,7 +50,7 @@ open index.html
 
 - 💼 https://www.linkedin.com/in/vaishnav-bhalekar-40508237a
 - 📧 vaishnavbhalekar824@gmail.com
-- 🌐 [Live Portfolio](https://yourusername.github.io/portfolio)
+- 🌐 https://github.com/Vaishnav272007/Portfolio-?tab=readme-ov-file
 
 ---
 
